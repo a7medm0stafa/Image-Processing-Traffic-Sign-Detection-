@@ -1,0 +1,82 @@
+[0.000000] (-) TimerEvent: {}
+[0.001790] (image) JobQueued: {'identifier': 'image', 'dependencies': OrderedDict()}
+[0.002725] (image) JobStarted: {'identifier': 'image'}
+[0.099275] (-) TimerEvent: {}
+[0.199925] (-) TimerEvent: {}
+[0.300527] (-) TimerEvent: {}
+[0.401119] (-) TimerEvent: {}
+[0.501723] (-) TimerEvent: {}
+[0.602251] (-) TimerEvent: {}
+[0.702831] (-) TimerEvent: {}
+[0.803359] (-) TimerEvent: {}
+[0.904024] (-) TimerEvent: {}
+[1.004795] (-) TimerEvent: {}
+[1.105491] (-) TimerEvent: {}
+[1.206053] (-) TimerEvent: {}
+[1.306752] (-) TimerEvent: {}
+[1.407374] (-) TimerEvent: {}
+[1.507957] (-) TimerEvent: {}
+[1.608487] (-) TimerEvent: {}
+[1.709045] (-) TimerEvent: {}
+[1.809624] (-) TimerEvent: {}
+[1.910203] (-) TimerEvent: {}
+[2.010785] (-) TimerEvent: {}
+[2.111307] (-) TimerEvent: {}
+[2.211875] (-) TimerEvent: {}
+[2.312457] (-) TimerEvent: {}
+[2.412966] (-) TimerEvent: {}
+[2.513593] (-) TimerEvent: {}
+[2.614122] (-) TimerEvent: {}
+[2.714687] (-) TimerEvent: {}
+[2.815218] (-) TimerEvent: {}
+[2.915833] (-) TimerEvent: {}
+[3.016367] (-) TimerEvent: {}
+[3.117098] (-) TimerEvent: {}
+[3.218186] (-) TimerEvent: {}
+[3.303413] (image) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/mypi4b/Zoba_ws/build/image/build', '--no-deps', 'symlink_data'], 'cwd': '/home/mypi4b/Zoba_ws/build/image', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'mypi4b', 'SSH_CLIENT': '100.64.114.89 55701 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mypi4b', 'OLDPWD': '/home/mypi4b/Zoba_ws/src/image/image', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_CTYPE': 'UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/mypi4b/Zoba_ws/install:/home/mypi4b/Autonomous_Project/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'mypi4b', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/mypi4b/Zoba_ws/install/image:/home/mypi4b/Autonomous_Project/install/Autonomous_Systems_Project_Team_17:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mypi4b/Zoba_ws/build/image', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.64.114.89 55701 100.96.158.4 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/mypi4b/Zoba_ws/build/image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages:/home/mypi4b/Zoba_ws/build/image:/home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages:/home/mypi4b/Autonomous_Project/install/Autonomous_Systems_Project_Team_17/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.318383] (-) TimerEvent: {}
+[3.419902] (-) TimerEvent: {}
+[3.520835] (-) TimerEvent: {}
+[3.621486] (-) TimerEvent: {}
+[3.722016] (-) TimerEvent: {}
+[3.822597] (-) TimerEvent: {}
+[3.923131] (-) TimerEvent: {}
+[4.023704] (-) TimerEvent: {}
+[4.124297] (-) TimerEvent: {}
+[4.224882] (-) TimerEvent: {}
+[4.325452] (-) TimerEvent: {}
+[4.425980] (-) TimerEvent: {}
+[4.526532] (-) TimerEvent: {}
+[4.627098] (-) TimerEvent: {}
+[4.628614] (image) StdoutLine: {'line': b'running develop\n'}
+[4.727247] (-) TimerEvent: {}
+[4.827806] (-) TimerEvent: {}
+[4.928326] (-) TimerEvent: {}
+[5.028889] (-) TimerEvent: {}
+[5.129437] (-) TimerEvent: {}
+[5.229957] (-) TimerEvent: {}
+[5.330489] (-) TimerEvent: {}
+[5.431052] (-) TimerEvent: {}
+[5.434759] (image) StdoutLine: {'line': b'running egg_info\n'}
+[5.504485] (image) StdoutLine: {'line': b'writing image.egg-info/PKG-INFO\n'}
+[5.505575] (image) StdoutLine: {'line': b'writing dependency_links to image.egg-info/dependency_links.txt\n'}
+[5.506657] (image) StdoutLine: {'line': b'writing entry points to image.egg-info/entry_points.txt\n'}
+[5.507907] (image) StdoutLine: {'line': b'writing requirements to image.egg-info/requires.txt\n'}
+[5.512044] (image) StdoutLine: {'line': b'writing top-level names to image.egg-info/top_level.txt\n'}
+[5.531224] (-) TimerEvent: {}
+[5.631812] (-) TimerEvent: {}
+[5.663746] (image) StdoutLine: {'line': b"reading manifest file 'image.egg-info/SOURCES.txt'\n"}
+[5.666610] (image) StdoutLine: {'line': b"writing manifest file 'image.egg-info/SOURCES.txt'\n"}
+[5.731948] (-) TimerEvent: {}
+[5.743524] (image) StdoutLine: {'line': b'running build_ext\n'}
+[5.744243] (image) StdoutLine: {'line': b'Creating /home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages/image.egg-link (link to .)\n'}
+[5.746681] (image) StdoutLine: {'line': b'Installing sign_detection script to /home/mypi4b/Zoba_ws/install/image/lib/image\n'}
+[5.747712] (image) StdoutLine: {'line': b'Installing vehicle_actuator script to /home/mypi4b/Zoba_ws/install/image/lib/image\n'}
+[5.748796] (image) StdoutLine: {'line': b'\n'}
+[5.749266] (image) StdoutLine: {'line': b'Installed /home/mypi4b/Zoba_ws/build/image\n'}
+[5.749775] (image) StdoutLine: {'line': b'running symlink_data\n'}
+[5.832229] (-) TimerEvent: {}
+[5.906751] (image) CommandEnded: {'returncode': 0}
+[5.932817] (-) TimerEvent: {}
+[5.961079] (image) JobEnded: {'identifier': 'image', 'rc': 0}
+[5.964657] (-) EventReactorShutdown: {}

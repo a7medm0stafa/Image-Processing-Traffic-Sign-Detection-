@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating image.egg-info
+writing image.egg-info/PKG-INFO
+writing dependency_links to image.egg-info/dependency_links.txt
+writing entry points to image.egg-info/entry_points.txt
+writing requirements to image.egg-info/requires.txt
+writing top-level names to image.egg-info/top_level.txt
+writing manifest file 'image.egg-info/SOURCES.txt'
+reading manifest file 'image.egg-info/SOURCES.txt'
+writing manifest file 'image.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages/image.egg-link (link to .)
+Installing sign_detection script to /home/mypi4b/Zoba_ws/install/image/lib/image
+
+Installed /home/mypi4b/Zoba_ws/build/image
+running symlink_data
+creating /home/mypi4b/Zoba_ws/install/image/share/ament_index
+creating /home/mypi4b/Zoba_ws/install/image/share/ament_index/resource_index
+creating /home/mypi4b/Zoba_ws/install/image/share/ament_index/resource_index/packages
+symbolically linking /home/mypi4b/Zoba_ws/build/image/resource/image -> /home/mypi4b/Zoba_ws/install/image/share/ament_index/resource_index/packages
+symbolically linking /home/mypi4b/Zoba_ws/build/image/package.xml -> /home/mypi4b/Zoba_ws/install/image/share/image

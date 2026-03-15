@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing image.egg-info/PKG-INFO
+writing dependency_links to image.egg-info/dependency_links.txt
+writing entry points to image.egg-info/entry_points.txt
+writing requirements to image.egg-info/requires.txt
+writing top-level names to image.egg-info/top_level.txt
+reading manifest file 'image.egg-info/SOURCES.txt'
+writing manifest file 'image.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages/image.egg-link (link to .)
+Installing sign_detection script to /home/mypi4b/Zoba_ws/install/image/lib/image
+Installing vehicle_actuator script to /home/mypi4b/Zoba_ws/install/image/lib/image
+
+Installed /home/mypi4b/Zoba_ws/build/image
+running symlink_data

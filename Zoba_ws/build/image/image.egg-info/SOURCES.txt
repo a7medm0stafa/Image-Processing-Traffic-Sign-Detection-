@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+image/__init__.py
+image/sign_detection_node.py
+image/vehicle_actuator_node.py
+image.egg-info/PKG-INFO
+image.egg-info/SOURCES.txt
+image.egg-info/dependency_links.txt
+image.egg-info/entry_points.txt
+image.egg-info/requires.txt
+image.egg-info/top_level.txt
+image.egg-info/zip-safe
+resource/image

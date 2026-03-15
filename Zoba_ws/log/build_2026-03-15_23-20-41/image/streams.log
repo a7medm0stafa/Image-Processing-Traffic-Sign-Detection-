@@ -1,0 +1,24 @@
+[3.801s] Invoking command in '/home/mypi4b/Zoba_ws/build/image': PYTHONPATH=/home/mypi4b/Zoba_ws/build/image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mypi4b/Zoba_ws/build/image/build --no-deps symlink_data
+[5.106s] running develop
+[5.909s] running egg_info
+[5.910s] creating image.egg-info
+[5.979s] writing image.egg-info/PKG-INFO
+[5.980s] writing dependency_links to image.egg-info/dependency_links.txt
+[5.981s] writing entry points to image.egg-info/entry_points.txt
+[5.982s] writing requirements to image.egg-info/requires.txt
+[5.982s] writing top-level names to image.egg-info/top_level.txt
+[5.983s] writing manifest file 'image.egg-info/SOURCES.txt'
+[6.128s] reading manifest file 'image.egg-info/SOURCES.txt'
+[6.130s] writing manifest file 'image.egg-info/SOURCES.txt'
+[6.206s] running build_ext
+[6.206s] Creating /home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages/image.egg-link (link to .)
+[6.209s] Installing sign_detection script to /home/mypi4b/Zoba_ws/install/image/lib/image
+[6.210s] 
+[6.210s] Installed /home/mypi4b/Zoba_ws/build/image
+[6.211s] running symlink_data
+[6.211s] creating /home/mypi4b/Zoba_ws/install/image/share/ament_index
+[6.212s] creating /home/mypi4b/Zoba_ws/install/image/share/ament_index/resource_index
+[6.213s] creating /home/mypi4b/Zoba_ws/install/image/share/ament_index/resource_index/packages
+[6.214s] symbolically linking /home/mypi4b/Zoba_ws/build/image/resource/image -> /home/mypi4b/Zoba_ws/install/image/share/ament_index/resource_index/packages
+[6.215s] symbolically linking /home/mypi4b/Zoba_ws/build/image/package.xml -> /home/mypi4b/Zoba_ws/install/image/share/image
+[6.370s] Invoked command in '/home/mypi4b/Zoba_ws/build/image' returned '0': PYTHONPATH=/home/mypi4b/Zoba_ws/build/image/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mypi4b/Zoba_ws/install/image/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mypi4b/Zoba_ws/build/image/build --no-deps symlink_data

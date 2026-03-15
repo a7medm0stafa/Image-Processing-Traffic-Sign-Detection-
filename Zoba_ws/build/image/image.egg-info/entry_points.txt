@@ -1,0 +1,3 @@
+[console_scripts]
+sign_detection = image.sign_detection_node:main
+vehicle_actuator = image.vehicle_actuator_node:main
